@@ -1,0 +1,59 @@
+/* Global Body Styles */
+body {
+    background: #ffe4e1;
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+/* Love Heart Styles (Replace with your heart image if needed) */
+#loveHeart {
+    background: url('images/heart-image.jpg') no-repeat center;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+/* Garden and Messages Styles */
+#garden {
+    text-align: center;
+}
+
+#words {
+    font-family: "sans-serif";
+    font-size: 24px;
+    color: #666;
+    margin-top: 20px;
+}
+
+#messages {
+    display: none;
+}
+
+#messages div {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Countdown Timer Styles */
+#elapseClock {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #e60000;
+}
+
+.digit {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Audio Background */
+#clickSound {
+    display: none;
+}
